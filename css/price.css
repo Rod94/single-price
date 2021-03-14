@@ -27,5 +27,6 @@
 }
 
 .full-price {
-
+  color: var(--color-lgray);
+  margin-top: 12px;
 }
