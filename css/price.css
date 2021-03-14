@@ -1,0 +1,31 @@
+.price-community {
+  max-width: 700px;
+  width: 90%;
+  background-color: #2BB3B1;
+  font-size: 16px;
+  letter-spacing: 3px;
+  padding: 40px 0 30px 40px;
+}
+
+.price-community > .title-price {
+  color: var(--color-lgray);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.price-community > .dolar-price {
+  display: inline;
+  font-size: 30px;
+  color: var(--color-lgray);
+  font-weight: bold;
+}
+
+.month-price {
+  color: var(--color-lgray);
+  opacity: 45%;  
+}
+
+.full-price {
+
+}
