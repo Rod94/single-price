@@ -42,3 +42,24 @@
   margin-top: 12px;
   box-shadow: 3px 2px 8px 2px rgba(51,49,51,0.52);
 }
+
+
+@media (max-width: 375px){
+  .price-community {
+    letter-spacing: 1px;
+  }
+
+  .price-community > .title-price,
+  .price-community > .dolar-price {
+    font-size: 20px;
+  }
+
+  .full-price {
+    font-size: 13px;
+  }
+
+  .btn-price {
+    font-size: 15px;
+    box-shadow: 1.5px 1px 4px 1px rgba(51,49,51,0.52);
+  }
+}
