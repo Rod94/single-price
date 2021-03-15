@@ -22,3 +22,18 @@
 .community > .paragraph-community {
   margin-bottom: 20px;
 }
+
+@media (max-width: 375px) {
+  .community {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  .community > .title-community {
+    font-size: 20px;
+  }
+
+  .community > .subtitle-community {
+    font-size: 18px;
+  }
+}

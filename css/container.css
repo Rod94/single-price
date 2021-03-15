@@ -14,3 +14,14 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 0;
 }
+
+
+@media (max-width: 375px) {
+  .container {
+    height: 90%;
+  }
+  .container-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
