@@ -6,3 +6,16 @@
   letter-spacing: 3px;
   padding: 40px 0 30px 40px;
 }
+
+.title-why {
+  color: var(--color-lgray);
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 13px;
+}
+
+.paragraph-why {
+  color: var(--color-lgray);
+  opacity: 70%;
+  margin-bottom: 5px;
+}
