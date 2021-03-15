@@ -7,15 +7,29 @@
   padding: 40px 0 30px 40px;
 }
 
-.title-why {
+.why-community > .title-why {
   color: var(--color-lgray);
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 13px;
 }
 
-.paragraph-why {
+.why-community > .paragraph-why {
   color: var(--color-lgray);
   opacity: 70%;
   margin-bottom: 5px;
+}
+
+@media (max-width: 375px){
+  .why-community {
+    letter-spacing: 1px;
+  }
+
+  .why-community > .title-why {
+    font-size: 20px;
+  }
+
+  .why-community > .paragraph-why {
+    font-size: 14px;
+  }
 }
